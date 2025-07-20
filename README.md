@@ -27,6 +27,6 @@ This is a backend blog application built using **FastAPI**. It includes features
 - Python-Jose (for JWT tokens)
 
 👩‍💻 Author
-Aparna BR
+Aparna B R
 GitHub
 
