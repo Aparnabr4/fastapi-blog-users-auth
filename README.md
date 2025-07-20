@@ -26,6 +26,17 @@ This is a backend blog application built using **FastAPI**. It includes features
 - Passlib (for password hashing)
 - Python-Jose (for JWT tokens)
 
+🗃️ Database Setup
+-This project uses SQLite as the database.
+-The database file (.blog.db) is automatically created when you run the project.
+-You do not need to manually create or insert any tables.
+-SQLAlchemy takes care of creating tables based on the models defined in models.py.
+
+✅ How it works
+When the app starts, the following line (in main.py or equivalent) creates all tables:
+models.Base.metadata.create_all(bind=engine)
+
+
 👩‍💻 Author
 Aparna B R
 GitHub
