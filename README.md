@@ -22,8 +22,6 @@ This is a backend blog application built using **FastAPI**. It includes features
 - SQLAlchemy
 - Pydantic
 - Uvicorn
-- Passlib (for password hashing)
-- Python-Jose (for JWT tokens)
 
 🗃️ Database Setup
 -This project uses SQLite as the database.
