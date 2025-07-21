@@ -13,8 +13,7 @@ This is a backend blog application built using **FastAPI**. It includes features
 - 🗄️ SQLite Database with SQLAlchemy
 - 📜 Pydantic for schema validation
 - 🌐 FastAPI with automatic Swagger UI docs
-- 🐳 Dockerized setup (if applicable)
-- 🔄 Async endpoints (optional)
+
 
 ## 🛠️ Tech Stack
 
